@@ -5,7 +5,11 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
+/**
+ * UTIL:查找两个日期之间的天数
+ * @author zhangqq
+ *
+ */
 public class DateBetween {
 	public static List<Map<String, Date>> getDateBetween(Date start, Date end) {
 		List<Map<String, Date>> resultlist = new ArrayList<>();
