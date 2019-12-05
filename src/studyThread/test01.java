@@ -3,7 +3,9 @@ package studyThread;
 public class test01 {
 	public static void main(String[] args) {
 		testThread01 t = new testThread01(1);
+		testThread01 t2 = new testThread01(2);
 		t.start();
+		t2.start();
 		while (true) {
 			System.out.println("噸宥塰佩！！！！！！！！！！！！！！！！！！！！！！");
 		}
